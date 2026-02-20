@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                         navbar.classList.toggle('scrolled', currentScroll > 20);
 
                                                         // Floating CTA visibility (mobile)
-                                                        if (floatingCta) {
+                                                        if (floatingCta) {h
                                                                  floatingCta.classList.toggle('visible', currentScroll > 600);
                                                         }
 
@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                             submitBtn.disabled = true;
 
                                                                try {
-                                                                          // === FORMSUBMIT.CO – Sendet Leads per E-Mail an telis@sunds.de ===
-                                              const response = await fetch('https://formsubmit.co/ajax/telis@sunds.de', {
+                                                                          // === FORMSUBMIT.CO – Sendet Leads per E-Mail an telis@sundsconnect.de ===
+                                              const response = await fetch('https://formsubmit.co/ajax/telis@sundsconnect.de', {
                                                            method: 'POST',
                                                            headers: {
                                                                           'Content-Type': 'application/json',
